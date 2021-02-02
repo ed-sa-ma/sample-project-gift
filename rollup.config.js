@@ -14,7 +14,7 @@ export default {
     sourcemap: true,
     format: "es",
     name: "app",
-    dir: "public/build/",
+    dir: "public/gift-assets/build/",
   },
   plugins: [
     svelte({

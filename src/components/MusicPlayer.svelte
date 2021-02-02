@@ -45,4 +45,7 @@ https://creativecommons.org/licenses/by/3.0/deed.en_US -->
   {/if}
 </IconButton>
 
-<audio bind:this="{audioRef}" loop src="/static/audio/soundtrack.mp3"></audio>
+<audio
+  bind:this="{audioRef}"
+  loop
+  src="/gift-assets/static/audio/soundtrack.mp3"></audio>

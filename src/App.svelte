@@ -5,7 +5,11 @@
 
 <!-- Prefetching of first carousel photo and soundtrack. -->
 <svelte:head>
-  <link rel="preload" href="/static/audio/soundtrack.mp3" type="audio/mp3" />
+  <link
+    rel="preload"
+    href="/gift-assets/static/audio/soundtrack.mp3"
+    type="audio/mp3"
+  />
 </svelte:head>
 
 <div class="container">
@@ -27,10 +31,11 @@
     <img
       sizes="(max-width: 600px) 140px, (max-width: 800px) 280px, (max-width: 1000px) 420px, 560px"
       srcset="
-      /static/Background_logo_200.png 200w,
-      /static/Background_logo_304.png 304w,
-      /static/Background_logo_363.png 363w,
-      /static/Background_logo_560.png 560w"
+      /gift-assets/static/Background_logo_200.png 200w,
+      /gift-assets/static/Background_logo_304.png 304w,
+      /gift-assets/static/Background_logo_363.png 363w,
+      /gift-assets/static/Background_logo_560.png 560w"
+      src="/gift-assets/static/Background_logo_560.png"
       alt="gradient logo"
     />
   </div>

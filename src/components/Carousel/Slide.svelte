@@ -13,7 +13,7 @@
   let src = null;
   $: {
     if ((!src && Math.abs(idx - visibleIdx) < 2) || isLast) {
-      src = `/static/carousel-images/${photoName}`;
+      src = `/gift-assets/static/carousel-images/${photoName}`;
     }
   }
 </script>
