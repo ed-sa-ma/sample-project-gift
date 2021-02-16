@@ -2,4 +2,5 @@
   font-family: "Pacifico";
   src: url("/gift-assets/font/Pacifico-Regular.woff2") format("woff2"),
     url("/gift-assets/font/Pacifico-Regular.woff") format("woff");
+  font-display: swap;
 }
