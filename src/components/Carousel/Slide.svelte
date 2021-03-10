@@ -53,7 +53,7 @@
 
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-end;
       text-align: center;
       padding: 1rem;
       font-size: 1.5rem;
